@@ -1,0 +1,68 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    color: #000B4B;
+}
+
+.bg-pink {
+    background-color: #000B4B;
+    color: #ffffff;
+    font-family: 'Poppins', Bold;
+}
+
+.btn-primary {
+    background-color: #000B4B;
+    color: #000B4B;
+}
+
+div .col-lg-6 {
+    margin: auto;
+    color: #000B4B;
+}
+
+div .col-lg-6 h2 {
+    margin: auto;
+    text-align:center;
+}
+
+.divBoton {
+    margin: auto;
+    text-align: center;
+    color: #000B4B;
+}
+
+#v-pills-tab {
+    color: #000B4B;
+}
+
+#v-pills-tab a{
+    color: #4F4F4F;
+}
+
+#v-pills-tab a:hover {
+    color: #000B4B;
+}
+
+.card-body {
+    color: #000B4B;
+}
+
+.olvidoContrase {
+    color: #000B4B;
+}
+
+.olvidoContrase:hover {
+    color: #EC0086;
+}
+
+.formregistrate {
+    color: #4F4F4F;
+}
+
+.formregistrate:hover {
+    color: #000B4B;
+}
+
+a.btn.btn-primary {
+    background-color: #EC0086;
+    border-color:#FFFFFF;
+}

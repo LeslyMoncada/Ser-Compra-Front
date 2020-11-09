@@ -1,0 +1,150 @@
+﻿@{
+    Layout = "~/Views/Layauts/Diseñoindex.cshtml";
+    ViewBag.Title = "Formulario de inscripcion proveedor";
+}
+
+<form>
+    <div class="form-row">
+
+        <div>
+            <h4>Inscripción De Proveedor Y/O Contratistas</h4>
+            <h6>Consulta A Centrales De Información Y Bancos De Datos</h6>
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#leer1Modal">
+                Leer
+            </button>
+
+            <!-- Scrollable modal -->
+            <div class="modal fade" id="leer1Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-dialog modal-xl">
+                            <p>
+                                Mediante la suscripción del presente formato como proveedor
+                                declaro expresamente que autorizo a la Caja de Compensación Familiar
+                                de Cundinamarca COMFACUNDI, para que en cualquier momento con fines de control y
+                                supervisión consulte la información que sobre nosotros exista en las centrales de riesgo.
+                                De igual forma certifico que nuestras actividades son ejercidas de forma lícita y dentro del
+                                marco legal. Así mismo que los recursos y bienes asociados no provienen de actividades ilícitas
+                                contempladas en el Código Penal Colombiano. Autorizo Expresamente a COMFACUNDI a realizar las
+                                consultas pertinentes en la lista Clinton o Listas OFAC (Iffce of Foreign Assets Control) del
+                                departamento del tesoro de los Estado Unidos de América y en la lista del Consejo de Seguridad
+                                de las Naciones Unidas.
+
+                            </p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="margin-top:35px;">
+            <h6>Tratamiento De Datos Personales</h6>
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#leer2Modal">
+                Leer
+            </button>
+
+            <!-- Scrollable modal -->
+            <div class="modal fade" id="leer2Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-dialog modal-xl">
+                            <p>
+                                Autorización Tratamiento de la Información: Autorizo expresamente de manera libre, previa,
+                                voluntaria y debidamente informada, a la Caja de Compensación Familiar de Cundinamarca
+                                COMFACUNDI Nit 860.045.904-7, actualizar, almacenar, usar, circular, suprimir, procesar,
+                                compilar, intercambiar, actualizar y disponer de los datos que sean suministrados por mi o
+                                por la empresa, así como para transferir dichos datos de manera total o parcial a sus filiales y
+                                aliados estratégicos con fines administrativos, comerciales y de mercadeo, para el envío de información
+                                sobre diferentes programas y servicios y en especial para el envío de campañas publicitarias o comerciales,
+                                invitaciones a eventos, evaluar la calidad del servicio, realizar estudios o investigaciones de
+                                mercado, comercialización de servicios y productos a través de los diferentes canales de información,
+                                los cuales serán sometidos a los fines establecidos anteriormente conforme a Ley 1581 de 2012 y
+                                el Decreto 1377 de 2013. Por consiguiente autorizo el envío de comunicaciones usando mis siguientes
+                                datos de contacto, entre otros: Número de teléfono móvil, Correo Electrónico, Dirección de correspondencia,
+                                Teléfonos fijos, o cualquier otro medio de contacto físico o electrónico que lo permita y que tenga
+                                registrado en COMFACUNDI.
+
+                            </p>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6" style="margin-top:10%;">
+            <label for="inputEmail4">
+                CORREO ELECTRÓNICO
+            </label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group col-md-6" style="margin-top:10%;">
+            <label for="inputPassword4">NOMBRE DE LA FIRMA CONTRATISTA O PROVEEDOR</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">DIRECCIÓN DEL CONTRATISTA O PROVEEDOR</label>
+        <input type="text" class="form-control" id="inputAddress">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">
+                TELÉFONO
+            </label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputCity">
+                NOMBRE DEL REPRESENTANTE LEGAL
+            </label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+
+        <div class="form-group">
+            <label for="inputZip">Para continuar con el proceso de inscripción debe dar clic en <a>Descargar formularios,</a> diligenciarlo y subirlo nuevamente a la pagina</label>
+            <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+            <input type="file" id="ejemplo_archivo_1">
+        </div>
+
+        <div class="form-group">
+            <label for="inputZip">Después de cargar el formulario, debe adjuntar todos los documentos pertinentes en un archivo comprimido y cargar el archivo </label>
+            <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+            <input type="file" id="ejemplo_archivo_1">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" style="margin:auto;margin-top:10%; text-align:center;">Enviar</button>
+
+
+    </div>
+</form>
