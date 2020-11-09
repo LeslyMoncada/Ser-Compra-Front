@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -130,10 +131,15 @@
     <Content Include="Content\Imagenes\logo1.png" />
     <Content Include="Content\Imagenes\logo2.png" />
     <Content Include="Content\Imagenes\iconlogo3.png" />
+    <Content Include="Content\Style\Styledisenoadmin.css" />
     <Content Include="Content\Style\Styledisenohome.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Admin\Gfuncionarios.cshtml" />
+    <Content Include="Views\Admin\Gproveedores.cshtml" />
+    <Content Include="Views\Admin\Inicioadmin.cshtml" />
+    <Content Include="Views\Layauts\DiseñoAdmin.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

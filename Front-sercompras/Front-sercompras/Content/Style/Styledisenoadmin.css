@@ -1,0 +1,44 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    color: #000B4B;
+}
+
+.bg-pink {
+    background-color: #ffffff;
+    color: #EC0086;
+    font-family: 'Poppins', Bold;
+}
+
+a.btn.btn-primary {
+    background-color: #EC0086;
+    border-color:#FFFFFF;
+}
+.card-body {
+    color: #000B4B;
+}
+#v-pills-tab {
+    color: #EC0086;
+}
+
+#v-pills-tab a{
+    color: #EC0086;
+}
+
+#v-pills-tab a:hover {
+    color: #EC0086;
+}
+
+#Perfil{
+    background-color: #FFFFFF;
+    border-color: #000b4b;
+    color: #EC0086;
+}
+#Notificacion{
+    color: #EC0086;
+}
+#Salir{
+    color: #EC0086;
+}
+div h4{
+    color: #000B4B;
+}
